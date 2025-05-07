@@ -2,7 +2,7 @@ title: My Blog
 description: Welcome to my blog!
 baseurl: "" 
 url: "" 
-theme: minima
+theme: 
 collections:
   posts:
     output: true
