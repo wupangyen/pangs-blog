@@ -24,5 +24,11 @@
     });
   }
 </script>
+
+<script>
+  if (window.location.href.includes('confirmation_token')) {
+    window.location.href = '/admin/';
+  }
+</script>
 </html>
 
