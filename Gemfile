@@ -62,4 +62,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "jekyll", "~> 4.3.2"
+gem "jekyll", "~> 4.4.1"
