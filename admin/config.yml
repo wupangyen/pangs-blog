@@ -1,13 +1,8 @@
 backend:
-  name: github
-  repo: wupangye/pangs-blog
+  name: git-gateway
   branch: main
-  auth_type: implicit
-  app_id: Ov23liJ5eLr57SMh38vx
-
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
-
 collections:
   - name: "posts"
     label: "Posts"
