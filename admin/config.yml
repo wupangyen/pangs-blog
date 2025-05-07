@@ -1,8 +1,7 @@
 backend:
   name: github
-  repo: <your-username>/<your-repo>
+  repo: wupangye/pangs-blog
   branch: main
-  base_url: https://api.github.com
   auth_type: implicit
   app_id: Ov23liJ5eLr57SMh38vx
 
