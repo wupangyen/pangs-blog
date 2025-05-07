@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+
+  .site-header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .site-title {
+    font-family: Georgia, serif;
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  hr {
+    width: 90%;          /* Makes the line shorter */
+    margin: 0 auto;      /* Centers the <hr> horizontally */
+    border: none;
+    height: 2px;
+    background-color: black;
+  }
+
+  .center {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center; /* or center if you want center-aligned text too */
+  }
+
+  
+.center ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.three-column {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .left-column,
+  .center-column,
+  .right-column {
+    padding: 1rem;
+  }
+  

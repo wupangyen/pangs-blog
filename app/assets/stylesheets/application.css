@@ -1,0 +1,56 @@
+body {
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    margin: 2rem;
+    color: #000;
+  }
+  
+  .resume-header h1 {
+    margin-bottom: 0;
+  }
+  
+  .resume-header p {
+    margin-top: 0;
+    font-size: 0.9rem;
+  }
+  
+  .resume-section {
+    margin-top: 2rem;
+  }
+  
+  .resume-section h2 {
+    border-bottom: 2px solid #000;
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .entry {
+    margin-top: 1rem;
+  }
+  
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .entry-sub {
+    display : flex;
+    justify-content: space-between;
+    font-weight: normal;
+  }
+  
+  .entry em {
+    display: block;
+    margin-top: 0.2rem;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  ul li::marker {
+    content: "▪ ";
+  }
