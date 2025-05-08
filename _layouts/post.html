@@ -1,19 +1,17 @@
 <h1>{{ page.title }}</h1>
 
 <p>
-  {% if page.author %}
     <strong>By {{ page.author }}</strong> ·
-  {% endif %}
+
   <em>{{ page.date | date: "%B %-d, %Y" }}</em>
 </p>
 
-{% if page.image %}
   <img src="{{ page.image | relative_url }}" alt="Featured Image" style="max-width: 100%;">
-{% endif %}
 
-{% if page.rating %}
+
+
   <p><strong>Rating (scale of 1–5):</strong> {{ page.rating }}</p>
-{% endif %}
+
 
 <div class="post-content">
   {{ content }}
