@@ -7,9 +7,8 @@
   <body>
     <h1>{{ page.title }}</h1>
     <p><strong>By {{ page.author }}</strong> on <em>{{ page.date | date: "%B %e, %Y" }}</em></p>
-    page.image
-    {% if page.image %}
-      <img src="/uploads/{{ page.thumbnail }}" alt="Image for {{ page.title }}" style="max-width: 100%;">
+    {% if page.thumbnail %}
+      <img src=" {{ page.thumbnail }}" alt="Image for {{ page.title }}" style="max-width: 100%;">
     {% endif %}
     <div class="post-content">   
       {{ content }}
