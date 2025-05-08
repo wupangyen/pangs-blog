@@ -1,14 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: wupangyen/pangs-blog
   branch: main
-media_folder: "assets/uploads"
-public_folder: "/assets/uploads"
-collections:
-  - name: "posts"
-    label: "Posts"
-    folder: "_posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  auth_type: implicit
+  app_id: Ov23liJ5eLr57SMh38vx
+
+      
