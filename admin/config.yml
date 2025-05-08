@@ -5,4 +5,17 @@ backend:
   auth_type: implicit
   app_id: Ov23liJ5eLr57SMh38vx
 
-      
+media_folder: "static/uploads"
+public_folder: "/uploads"
+media_library:
+  name: uploadcare
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
