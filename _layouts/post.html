@@ -9,9 +9,9 @@
     <p><strong>By {{ page.author }}</strong> on <em>{{ page.date | date: "%B %e, %Y" }}</em></p>
     page.image
     {% if page.image %}
-      <img src="{{ page.image }}" alt="Image for {{ page.title }}">
+      <img src="/uploads/{{ page.thumbnail }}" alt="Image for {{ page.title }}" style="max-width: 100%;">
     {% endif %}
-    <div class="post-content">
+    <div class="post-content">   
       {{ content }}
     </div>
   </body>
